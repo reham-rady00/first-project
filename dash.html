@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+  
+</head>
+<body>
+    <!--start of navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!--start of brand-->
+        <a class="navbar-brand brandGradient" href="#">EMS2.0</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Jobs</a>
+                </li>
+              
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+            <form class="d-flex gap-2">
+            <div class="input-group flex-nowrap me-2">
+                <input type="text" class="form-control" placeholder="Search for. ." aria-label="Username"
+                    aria-describedby="addon-wrapping">
+                <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass" style="color: #020203;"></i></span>
+               
+            </div>
+            <div class="vr text-white"></div>
+            <button type="button" class="btn border-3 border-left  btn-warning">
+                <i class="fa-solid fa-power-off" style="color: #000000;"></i>
+            </button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--end of navbar-->
+
+<!--start of cards -->
+ <div class="container-fluid mt-3">
+    <div class="row justify-content-center">
+        <!--card one-->
+        <div class=" col-md-3">
+<div class="card text-white bg-primary mb-3 shadow  text-center" >
+    <div class="card-header">Empoyees List</div>
+    <div class="card-body small">
+        <h2 class="card-text">+252</h2>
+      
+    </div>
+    <div class="card-footer small">
+        <a href="employees.html" class="text-decoration-none text-white">view all employees</a>
+    </div>
+    </div>
+</div>
+
+    <!--card two-->
+<div class=" col-md-3">
+    <div class="card text-white bg-primary mb-3 shadow text-center ">
+        <div class="card-header">jobs List</div>
+        <div class="card-body small">
+            <h2 class="card-text">+25</h2>
+
+        </div>
+        <div class="card-footer small">
+        <a href="jobs.html" class="text-decoration-none text-white">view all jobs</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

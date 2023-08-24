@@ -1,0 +1,19 @@
+.card {
+    box-shadow: 1px 1px 1px 0.5px rgb(214, 214, 214);
+}
+.navbar-brand{
+    color: rgb(8, 153, 131);
+}
+.input-group-text{
+    background-color: green;
+}
+  .brandGradient {
+      background: #218fcf;
+      background: linear-gradient(to right, #218fcf 0%, #86cf46 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .modal{
+    backdrop-filter: blur(5px);
+  }
